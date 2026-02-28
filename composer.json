@@ -1,0 +1,24 @@
+{
+  "name": "nopj/flarum-ext-custom-search",
+  "description": "Flarum custom search extension with Google/Bing selection.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nopj\\CustomSearch\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Nopj Custom Search",
+      "icon": {
+        "name": "fas fa-search",
+        "backgroundColor": "#2563eb",
+        "color": "#ffffff"
+      }
+    }
+  }
+}
