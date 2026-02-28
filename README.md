@@ -15,29 +15,20 @@
 
 ## 安装
 
-由于此插件目前位于项目的 `packages` 目录下，您可以通过以下方式在 Flarum 项目中引用：
+您可以直接通过 Composer 安装此插件：
 
-1. 确保项目的 `composer.json` 中配置了路径仓库：
-```json
-"repositories": [
-    {
-        "type": "path",
-        "url": "packages/*"
-    }
-]
-```
-
-2. 运行 Composer 命令安装：
 ```bash
 composer require nopj/flarum-ext-custom-search:*
 ```
 
-3. 启用插件：
+启用插件：
+
 ```bash
 php flarum extension:enable nopj-custom-search
 ```
 
-4. 清除缓存：
+清除缓存：
+
 ```bash
 php flarum cache:clear
 ```
